@@ -59,9 +59,9 @@ datetime.timedelta(0, 7200)
 >>> dt.astimezone(tz.tzutc())
 Traceback (most recent call last):
   File "/usr/lib/python2.6/doctest.py", line 1248, in __run
-	compileflags, 1) in test.globs
+    compileflags, 1) in test.globs
   File "<doctest __main__[22]>", line 1, in <module>
-	dt.astimezone(tz.tzutc())
+    dt.astimezone(tz.tzutc())
 ValueError: astimezone() cannot be applied to a naive datetime
 >>> dt.replace(tzinfo=pst)
 datetime.datetime(2010, 9, 25, 10, 36, tzinfo=tzfile('America/Los_Angeles'))
@@ -153,5 +153,5 @@ b'abcde'
 '''
 
 if __name__ == '__main__':
-	import doctest
-	doctest.testmod()
+    import doctest
+    doctest.testmod()
