@@ -1,8 +1,5 @@
-import itertools
-
 from nltk.probability import FreqDist, ConditionalFreqDist
 from nltk.tag import brill, brill_trainer
-from nltk.tbl import Template
 
 
 def backoff_tagger(train_sents, tagger_classes, backoff=None):

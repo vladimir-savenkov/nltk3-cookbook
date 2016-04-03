@@ -1,6 +1,5 @@
-from redisprob import RedisHashFreqDist, RedisConditionalHashFreqDist
-
 from redis import Redis
+from redisprob import RedisHashFreqDist, RedisConditionalHashFreqDist
 
 
 if __name__ == '__channelexec__':
