@@ -112,5 +112,5 @@ Tree('S', [Tree('NP', [Tree('NP', [Tree('NNP', ['Pierre']), Tree('NNP', ['Vinken
 # TODO: also do a task on converting tree nodes so NP-TMP -> NP
 
 if __name__ == '__main__':
-	import doctest
-	doctest.testmod()
+    import doctest
+    doctest.testmod()

@@ -346,5 +346,5 @@ Tree('DOCUMENT', ['Kenyans', 'protest', 'tax', 'hikes'])
 """
 
 if __name__ == '__main__':
-	import doctest
-	doctest.testmod()
+    import doctest
+    doctest.testmod()
